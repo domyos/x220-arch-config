@@ -1,0 +1,2 @@
+#!/bin/bash
+urxvt -e bash -c 'i3-msg "floating enable"; ranger'

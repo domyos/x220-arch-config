@@ -1,0 +1,8 @@
+#!/bin/bash
+
+i3-msg "workspace web - work, exec firefox -P work"
+i3-msg "workspace code, exec emacs"
+i3-msg "workspace terminal, exec i3-sensible-terminal"
+i3-msg "workspace web - private, exec firefox -P private"
+i3-msg "workspace chat, exec urxvt -e bash -c weechat"
+i3-msg "workspace web - work"
